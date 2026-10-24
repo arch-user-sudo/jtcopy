@@ -1,5 +1,5 @@
 CC ?= cc
-CFLAGS ?= -O2 -Wall -Wextra -pedantic
+CFLAGS ?= -march=native -O2 -Wall -Wextra -pedantic
 PREFIX ?= /usr/local
 
 jtcopy: Code.c
